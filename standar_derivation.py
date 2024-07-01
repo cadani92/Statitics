@@ -39,4 +39,6 @@ t,p = stats.ttest_ind(data_group1,data_group2)
 sigtxt = ('',' NOT')
 plt.title('The two groups are%s significantly different! t(%g)=%g, p=%g'%(sigtxt[int(p>.05)],sum(ns)-2,np.round(t,2),np.round(p,3)))
 
+print("Graphics: ")
+
 plt.show()
